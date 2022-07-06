@@ -1,5 +1,5 @@
 {
-  "name": "vue2-vite",
+  "name": "vue2-vite-vue-test-utils",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,36 +8,28 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:cy": "cypress run",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "tsc": "vue-tsc --declaration --emitDeclarationOnly"
   },
-  "dependencies": {
-    "vue": "v2-beta"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
-    "@cypress/vue2": "^1.0.1",
-    "@testing-library/vue": "5",
     "@types/eslint": "^8.4.3",
     "@vitejs/plugin-vue2": "^1.1.1",
-    "@vitest/ui": "^0.16.0",
     "@vue/test-utils": "^1.3.0",
-    "cypress": "^10.3.0",
     "eslint": "^8.18.0",
     "eslint-plugin-vue": "^9.1.1",
     "happy-dom": "^5.3.4",
     "path": "^0.12.7",
-    "sass": "^1.53.0",
     "typescript": "^4.2.3",
     "vite": "^2.9.9",
     "vite-plugin-html-env": "^1.1.3",
-    "vitest": "^0.16.0",
-    "vue-template-compiler": "^2.7.0-beta.8",
+    "vitest": "^0.17.0",
+    "vue-loader": "^15.10.0",
+    "vue-template-compiler": "^2.7.3",
     "vue-tsc": "^0.38.2"
   },
-  "overrides": {
-    "@vue/vue-loader-v15": "npm:vue-loader@^15.10.0-beta.6"
+  "dependencies": {
+    "vue": "^2.7.3"
   }
 }
