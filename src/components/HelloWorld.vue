@@ -33,7 +33,7 @@ function onClick() {
 }
 </script>
 
-<style lang="scss">
+<style>
 .hello-world {
   display:flex;
   flex-direction:column;
